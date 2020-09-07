@@ -42,19 +42,20 @@ will add the following binaries to the PATH:
 For example:
 
 ```bash
-$ hab pkg install core/node --binlink
-» Installing core/node
-☁ Determining latest version of core/node in the 'stable' channel
-→ Found newer installed version (core/node/12.14.1/20200615164709) than remote version (core/node/12.14.1/20200310024011)
-→ Using core/node/12.14.1/20200615164709
-★ Install of core/node/12.14.1/20200615164709 complete with 0 new packages installed.
-» Binlinking npx from core/node/12.14.1/20200615164709 into /bin
-★ Binlinked npx from core/node/12.14.1/20200615164709 to /bin/npx
-» Binlinking npm from core/node/12.14.1/20200615164709 into /bin
-★ Binlinked npm from core/node/12.14.1/20200615164709 to /bin/npm
-» Binlinking node from core/node/12.14.1/20200615164709 into /bin
-★ Binlinked node from core/node/12.14.1/20200615164709 to /bin/node
-[29][default:/src/node:0]# 
+# hab pkg install core/node8 --binlink
+» Installing core/node8
+☁ Determining latest version of core/node8 in the 'stable' channel
+↓ Downloading core/node8/8.17.0/20200812143256
+☛ Verifying core/node8/8.17.0/20200812143256
+✓ Installed core/node8/8.17.0/20200812143256
+★ Install of core/node8/8.17.0/20200812143256 complete with 7 new packages installed.
+» Binlinking npm from core/node8/8.17.0/20200812143256 into /bin
+★ Binlinked npm from core/node8/8.17.0/20200812143256 to /bin/npm
+» Binlinking node from core/node8/8.17.0/20200812143256 into /bin
+★ Binlinked node from core/node8/8.17.0/20200812143256 to /bin/node
+» Binlinking npx from core/node8/8.17.0/20200812143256 into /bin
+★ Binlinked npx from core/node8/8.17.0/20200812143256 to /bin/npx
+
 ```
 
 #### Using an example binary
