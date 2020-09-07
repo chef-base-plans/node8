@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.node8?repoName=chef-base-plans%2Fnode8&branchName=refs%2Fpull%2F1%2Fmerge)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=234&repoName=chef-base-plans%2Fnode8&branchName=refs%2Fpull%2F1%2Fmerge)
 
 # node8
 
